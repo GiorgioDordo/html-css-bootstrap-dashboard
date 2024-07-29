@@ -1,3 +1,5 @@
+/* HEADER */
+
 .duck-image-icon {
     height: auto;
     width: 80px;
@@ -5,9 +7,5 @@
 
 .navbar-duck-menu {
     height: 100px;
-}
-
-img {
-    max-width: 100%;
 }
 

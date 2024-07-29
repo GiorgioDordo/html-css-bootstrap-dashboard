@@ -18,11 +18,11 @@
           <nav class="navbar navbar-dark bg-dark pb-3 pt-3 navbar-duck-menu">
             <div class="container-fluid h-100">
               <div class="h-100 d-flex align-items-center">
-                  <img class="duck-image-icon" src="img/duck.png" alt="">
+                  <img class="duck-image-icon img-fluid" src="img/duck.png" alt="">
                   <ul class="d-none d-xl-flex gap-4 list-menu mb-0">
-                    <li><a class="text-decoration-none link-secondary" href="#">Catalogo Libri</a></li>
+                    <li><a class="text-decoration-none link-secondary" href="index-2.html">Catalogo Libri</a></li>
                     <li><a class="text-decoration-none link-secondary" href="#">Anagrafica Utenti</a></li>
-                    <li><a class="text-decoration-none link-secondary" href="#">Storico Prestiti</a></li>
+                    <li><a class="text-decoration-none link-secondary" href="index.html">Storico Prestiti</a></li>
                     <li><a class="text-decoration-none link-secondary" href="#">Help</a></li>
                   </ul>
               </div>
@@ -36,10 +36,19 @@
             </div>
           </nav>
           <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
-            <div class="bg-dark p-4">
-              <h5 class="text-body-emphasis h4">Collapsed content</h5>
-              <span class="text-body-secondary">Toggleable via the navbar brand.</span>
-            </div>
+            <div class="bg-dark p-2">
+              <ul class="d-flex flex-column gap-2 list-menu p-0">
+                  <li><a class="text-decoration-none link-secondary" href="index-2.html">Catalogo Libri</a></li>
+                  <li><a class="text-decoration-none link-secondary" href="#">Anagrafica Utenti</a></li>
+                  <li><a class="text-decoration-none link-secondary" href="index.html">Storico Prestiti</a></li>
+                  <li><a class="text-decoration-none link-secondary" href="#">Help</a></li>
+              </ul>
+
+              <form class="d-flex" role="cerca">
+                  <input class="form-control me-2 bg-white text-dark" type="cerca" placeholder="cerca" aria-label="cerca">
+                  <button class="btn btn-outline-light" type="submit">cerca</button>
+              </form>
+          </div>
         </div>
     </header>
 
